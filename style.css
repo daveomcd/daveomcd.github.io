@@ -1,0 +1,55 @@
+body { 
+  font-family: 'Roboto Slab', serif; 
+  background-color: #03a9f4; 
+  color: #fff;
+  margin-top: 60px; 
+  margin-left: 45px; 
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  margin-left: -96px;
+}
+
+#welcome-message { 
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  position: absolute;
+  top: 235px;
+  left: 45px;
+}
+
+p.message-block {
+  margin-top: 15px;
+  width: 600px;
+}
+
+ul.menu {
+  float: right;
+  list-style-type: none;
+  margin: 0 45px 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.menu li {
+  list-style: none;
+  float: left;
+  padding: 15px 5px;
+}
+
+ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  text-decoration: underline;
+}
